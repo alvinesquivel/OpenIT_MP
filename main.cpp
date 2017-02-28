@@ -29,7 +29,7 @@ int main()
     }*/
 
 
-    ifstream inpFile("i betastat 1", ios::in);
+    ifstream inpFile("i_betastat_1", ios::in);
     ofstream outFile("output.csv", ios::out);
 
     if(!inpFile) {
