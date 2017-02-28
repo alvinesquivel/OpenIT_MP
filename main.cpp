@@ -8,28 +8,8 @@ using namespace std;
 
 int main()
 {
-    //cout << "Hello world!" << endl;
-    /*ofstream outClientFile("clients.csv", ios::out);
 
-    if (!outClientFile) {
-        cerr << "File could not be opened." << endl;
-        exit(EXIT_FAILURE);
-    }
-
-    cout << "Enter account number, name, balance." << endl
-        << "Enter eof to end. \n? ";
-
-    int account;
-    string name;
-    double balance;
-
-    while(cin >> account >> name >> balance) {
-        outClientFile << account << ',' << name << ',' <<  balance << endl;
-        cout << "? ";
-    }*/
-
-
-    ifstream inpFile("i_betastat_1", ios::in);
+    ifstream inpFile("i_betstat_1", ios::in);
     ofstream outFile("output.csv", ios::out);
 
     if(!inpFile) {
