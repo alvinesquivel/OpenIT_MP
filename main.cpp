@@ -9,7 +9,7 @@ using namespace std;
 int main()
 {
 
-    ifstream inpFile("i betstat 1", ios::in);
+    ifstream inpFile("i betastat 1", ios::in);
     ofstream outFile("output.csv", ios::out);
 
     if(!inpFile) {
